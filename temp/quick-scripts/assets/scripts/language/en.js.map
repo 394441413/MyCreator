@@ -1,0 +1,1 @@
+{"version":3,"sources":["en.js"],"names":["module","exports","L10000"],"mappings":";;;;;;AAAAA,OAAOC,OAAP,GAAiB;AACbC,YAAO;AADM,CAAjB","file":"en.js","sourceRoot":"../../../../../assets/scripts/language","sourcesContent":["module.exports = {\n    L10000:\"Test\",\n};"]}

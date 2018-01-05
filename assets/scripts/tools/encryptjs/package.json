@@ -1,0 +1,73 @@
+{
+  "name": "encryptjs",
+  "version": "2.0.0",
+  "description": "A library to encrypt and decrypt a string",
+  "main": "encryptjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/Harsha509/encryptjs.git"
+  },
+  "devDependencies": {
+    "jsonfile": "^2.2.3"
+  },
+  "keywords": [
+    "AES",
+    "aes",
+    "AES-128",
+    "AES-192",
+    "AES-256",
+    "Security",
+    "encryption",
+    "decryption",
+    "cipher",
+    "password",
+    "data masking",
+    "password hiding",
+    "encryption in protractor",
+    "encrypt",
+    "decrypt"
+  ],
+  "author": {
+    "name": "Sri Harsha",
+    "email": "sri.harsha@zenq.com"
+  },
+  "contributors": [
+    {
+      "name": "emcpoland"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://bitbucket.org/Harsha509/encryptjs/issues"
+  },
+  "homepage": "https://bitbucket.org/Harsha509/encryptjs/#readme",
+  "gitHead": "a76e0856322c03a0a3b63acdbc861d934851f8f4",
+  "_id": "encryptjs@2.0.0",
+  "_shasum": "1980f148e8c6e9549052a6cfeb95bff7e915d7c5",
+  "_from": "encryptjs@latest",
+  "_npmVersion": "3.10.8",
+  "_nodeVersion": "4.6.0",
+  "_npmUser": {
+    "name": "sriharsha",
+    "email": "sri.harsha@zenq.com"
+  },
+  "dist": {
+    "shasum": "1980f148e8c6e9549052a6cfeb95bff7e915d7c5",
+    "tarball": "https://registry.npmjs.org/encryptjs/-/encryptjs-2.0.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "sriharsha",
+      "email": "sri.harsha@zenq.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/encryptjs-2.0.0.tgz_1476962871990_0.6275976172182709"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/encryptjs/-/encryptjs-2.0.0.tgz"
+}

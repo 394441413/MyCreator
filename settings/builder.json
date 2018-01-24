@@ -1,0 +1,31 @@
+{
+  "appKey": "",
+  "appSecret": "",
+  "encryptJs": true,
+  "excludeScenes": [
+    "962475bd-6004-4f1a-a55c-f8ea9ed8cbce",
+    "f5045e47-ce38-4317-b159-26636f6ccc6f"
+  ],
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.MyCreatorT",
+  "privateKey": "",
+  "renderMode": "0",
+  "startScene": "b141e966-4774-4853-acc0-2356b75f3184",
+  "title": "MyCreatorT",
+  "webOrientation": "auto",
+  "xxteaKey": "c4ae79a3-4ab3-47"
+}

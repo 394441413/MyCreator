@@ -6,7 +6,7 @@
       "url": "app://editor/index.html",
       "windowType": "dockable",
       "x": 4,
-      "y": 195,
+      "y": 23,
       "width": 1916,
       "height": 1057,
       "layout": {
@@ -99,7 +99,8 @@
         "scene",
         "timeline"
       ]
-    }
+    },
+    "window-1516782393585": {}
   },
   "panels": {
     "project-settings": {
@@ -131,6 +132,18 @@
       "y": 217,
       "width": 800,
       "height": 622
+    },
+    "sprite-editor": {
+      "x": 708,
+      "y": 267,
+      "width": 500,
+      "height": 522
+    },
+    "builder": {
+      "x": 592,
+      "y": 127,
+      "width": 500,
+      "height": 722
     }
   }
 }

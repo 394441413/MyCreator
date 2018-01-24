@@ -101,6 +101,7 @@ cc.Class({
     },
 
     allOrientationExcute: function () {  
+        if(this.angle === 0) { return; }
         this.bodyObj.x += Math.cos(this.angle * (Math.PI / 180)) * this.speed;  
         this.bodyObj.y += Math.sin(this.angle * (Math.PI / 180)) * this.speed;  
     }, 

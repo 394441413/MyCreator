@@ -1,4 +1,4 @@
-var encrypt = require('scripts/tools/encryptjs/encryptjs');
+var encrypt = require('./encryptjs/encryptjs');
 var secretkey = 'GameXX123';
 
 //通用方法

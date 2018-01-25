@@ -10,8 +10,8 @@ cc._RF.push(module, 'bd025vtFTxKEYuiq+1UMy6k', 'const');
 window.LANG = "EN";
 window.NETPATH = "127.0.0.1";
 window.NETPORT = 3014;
-window.Utils = require("scripts/tools/utils");
-window.HttpManager = require("scripts/network/httpManager");
+window.Utils = require("./tools/utils");
+window.HttpManager = require("./network/httpManager");
 window.BoardManager = null;
 window.AudioManager = null;
 window.EventManager = null;
@@ -20,7 +20,7 @@ window.PomeloManager = null;
 //添加数据引用
 //window. + xxxData
 
-window.LANGDATA = LANG == "CN" ? require("scripts/language/cn") : require("scripts/language/en");
-window.NAMEDATA = require("scripts/gameData/nameData");
+window.LANGDATA = LANG == "CN" ? require("./language/cn") : require("./language/en");
+window.NAMEDATA = require("./gameData/nameData");
 
 cc._RF.pop();

@@ -4,7 +4,7 @@ cc._RF.push(module, '8e901Y4I/1LxZdP6W944Zru', 'utils', __filename);
 
 'use strict';
 
-var encrypt = require('scripts/tools/encryptjs/encryptjs');
+var encrypt = require('./encryptjs/encryptjs');
 var secretkey = 'GameXX123';
 
 //通用方法

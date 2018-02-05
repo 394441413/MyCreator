@@ -100,6 +100,7 @@ module.exports = {
             //cc.log(jsb.fileUtils.getWritablePath());
         }
     }
+
 };
 
 cc._RF.pop();

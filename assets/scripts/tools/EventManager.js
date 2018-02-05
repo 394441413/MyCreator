@@ -17,7 +17,10 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-
+        frameEvent: {
+            default: true,
+            tooltip: '是否不在update执行事件',
+        }
     },
 
 
@@ -26,7 +29,11 @@ cc.Class({
     },
 
     update: function (dt) {
-        if (eventOpen) {
+        this._excuteEvent();
+    },
+
+    _excuteEvent: function () {
+        if (eventOpen && !this.frameEvent) {
             for (var i = 0; i < countNum; i++) {
                 for (var j in eventList) {
                     var eventName = handlerList[i][0];
@@ -67,6 +74,9 @@ cc.Class({
     eventTrigger: function (eventName, args) {
         handlerList[countNum] = [eventName, args];
         countNum++;
+        if(frameEvent) {
+            this._excuteEvent();
+        }
     },
 
     closeEvent: function () {
@@ -76,4 +86,9 @@ cc.Class({
     startEvent: function () {
         eventOpen = true;
     },
+
+    clearEvent: function () {
+        countNum = 0;
+        eventList = {};
+    }
 });

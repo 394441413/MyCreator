@@ -2,7 +2,7 @@
 cc._RF.push(module, '731baJNoa9Gq4SOs8ocJpeS', 'EventManager', __filename);
 // scripts/tools/EventManager.js
 
-"use strict";
+'use strict';
 
 // looper
 // ----------------
@@ -21,7 +21,12 @@ var countNum = 0;
 cc.Class({
     extends: cc.Component,
 
-    properties: {},
+    properties: {
+        frameEvent: {
+            default: true,
+            tooltip: '是否在update执行事件'
+        }
+    },
 
     onLoad: function onLoad() {
         EventManager = this;
@@ -29,7 +34,11 @@ cc.Class({
 
 
     update: function update(dt) {
-        if (eventOpen) {
+        this._excuteEvent();
+    },
+
+    _excuteEvent: function _excuteEvent() {
+        if (eventOpen && !this.frameEvent) {
             for (var i = 0; i < countNum; i++) {
                 for (var j in eventList) {
                     var eventName = handlerList[i][0];
@@ -70,6 +79,9 @@ cc.Class({
     eventTrigger: function eventTrigger(eventName, args) {
         handlerList[countNum] = [eventName, args];
         countNum++;
+        if (frameEvent) {
+            this._excuteEvent();
+        }
     },
 
     closeEvent: function closeEvent() {
@@ -78,6 +90,11 @@ cc.Class({
 
     startEvent: function startEvent() {
         eventOpen = true;
+    },
+
+    clearEvent: function clearEvent() {
+        countNum = 0;
+        eventList = {};
     }
 });
 

@@ -1,196 +1,55 @@
-2018-01-25T07:54:47.423Z - normal: Load ~/.CocosCreator/settings.json
-2018-01-25T07:54:47.428Z - normal: checking language setting...
-2018-01-25T07:54:47.428Z - normal: Language: zh
-2018-01-25T07:54:50.013Z - success: protocol editor-framework registered
-2018-01-25T07:54:50.014Z - success: protocol app registered
-2018-01-25T07:54:50.014Z - success: protocol theme registered
-2018-01-25T07:54:50.014Z - success: protocol packages registered
-2018-01-25T07:54:50.014Z - success: protocol unpack registerred
-2018-01-25T07:54:50.014Z - success: protocol disable-commonjs registerred
-2018-01-25T07:54:50.158Z - normal: connected!
-2018-01-25T07:54:50.174Z - normal: Check project /Users/new/Documents/project/MyCreatorT
-2018-01-25T07:54:50.176Z - normal: Initializing Cocos2d
-2018-01-25T07:54:51.221Z - normal: Initializing Asset Database
-2018-01-25T07:54:51.306Z - success: protocol uuid registerred
-2018-01-25T07:54:51.306Z - success: protocol db registerred
-2018-01-25T07:54:51.307Z - success: protocol thumbnail registerred
-2018-01-25T07:54:51.307Z - normal: Loading editor/builtin packages
-2018-01-25T07:54:51.384Z - success: anysdk loaded
-2018-01-25T07:54:51.572Z - success: assets loaded
-2018-01-25T07:54:51.578Z - success: builder loaded
-2018-01-25T07:54:51.581Z - success: cocos-analytics loaded
-2018-01-25T07:54:51.586Z - success: console loaded
-2018-01-25T07:54:51.593Z - success: hierarchy loaded
-2018-01-25T07:54:51.599Z - success: inspector loaded
-2018-01-25T07:54:51.601Z - success: keystore loaded
-2018-01-25T07:54:51.607Z - success: node-library loaded
-2018-01-25T07:54:51.610Z - success: package-asset loaded
-2018-01-25T07:54:51.612Z - success: preferences loaded
-2018-01-25T07:54:51.616Z - success: project-exporter loaded
-2018-01-25T07:54:51.639Z - success: project-importer loaded
-2018-01-25T07:54:51.644Z - success: project-settings loaded
-2018-01-25T07:54:51.650Z - success: ui-kit loaded
-2018-01-25T07:54:51.668Z - success: ui-grid loaded
-2018-01-25T07:54:51.676Z - success: scene loaded
-2018-01-25T07:54:51.678Z - success: sprite-editor loaded
-2018-01-25T07:54:51.690Z - success: store loaded
-2018-01-25T07:54:51.698Z - success: timeline loaded
-2018-01-25T07:54:51.698Z - normal: Loading builtin packages
-2018-01-25T07:54:51.706Z - success: asset-db-debugger loaded
-2018-01-25T07:54:51.707Z - success: color-picker loaded
-2018-01-25T07:54:51.712Z - success: package-manager loaded
-2018-01-25T07:54:51.719Z - success: sdkbox loaded
-2018-01-25T07:54:51.725Z - success: tester loaded
-2018-01-25T07:54:51.731Z - success: ui-kit-preview-extra loaded
-2018-01-25T07:54:51.737Z - success: ui-kit-preview loaded
-2018-01-25T07:54:51.742Z - success: ui-tree loaded
-2018-01-25T07:54:53.503Z - normal: Initializing project /Users/new/Documents/project/MyCreatorT
-2018-01-25T07:54:53.573Z - normal: Loading packages
-2018-01-25T07:54:53.579Z - normal: Watching packages
-2018-01-25T07:54:53.594Z - normal: Run Application
-2018-01-25T07:54:55.894Z - success: preview server running at http://localhost:7456
-2018-01-25T07:55:03.286Z - normal: 1.7.0
-2018-01-25T08:01:13.303Z - failed: load script [/Users/new/Documents/project/MyCreatorT/temp/quick-scripts/assets/scripts/tools/boardManager.js] failed : ReferenceError: md5 is not defined
-    at __define (/Users/new/Documents/project/MyCreatorT/temp/quick-scripts/assets/scripts/tools/boardManager.js:7:5)
-    at /Users/new/Documents/project/MyCreatorT/temp/quick-scripts/assets/scripts/tools/boardManager.js:58:13
-    at Object.<anonymous> (/Users/new/Documents/project/MyCreatorT/temp/quick-scripts/assets/scripts/tools/boardManager.js:65:11)
-    at Object.<anonymous> (/Users/new/Documents/project/MyCreatorT/temp/quick-scripts/assets/scripts/tools/boardManager.js:68:3)
-    at Module._compile (module.js:571:32)
-    at Object.Module._extensions..js (module.js:580:10)
-    at Module.load (module.js:488:32)
-    at tryModuleLoad (module.js:447:12)
-    at Function.Module._load (module.js:439:3)
-    at Module.require (module.js:498:17)
-2018-01-25T08:01:13.337Z - warn: Script attached to "RootNode" in prefab "RootNode.prefab" is missing or invalid. Detailed information:
-Node path: "RootNode"
-Asset url: "db://assets/rawResources/prefab/tools/RootNode.prefab"
-Script UUID: "b0c04d7c-6acf-453b-ad26-31d6b8c25ecb"
-Class ID: "b0c0418as9FO60mMda4wl7L"
-
-2018-01-25T08:02:17.046Z - normal: Simulator: WORKAREA WIDTH 1916.00, HEIGHT 1035.00
-2018-01-25T08:02:17.048Z - normal: Simulator: FRAME SCALE = 0.75
-2018-01-25T08:02:17.172Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
-2018-01-25T08:02:17.252Z - normal: Simulator: 
-2018-01-25T08:02:17.253Z - normal: Simulator: {
-2018-01-25T08:02:17.253Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
-2018-01-25T08:02:17.254Z - normal: Simulator: 	gl.supports_vertex_array_object: true
-2018-01-25T08:02:17.285Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
-2018-01-25T08:02:17.286Z - normal: Simulator: 	gl.vendor: Intel Inc.
-2018-01-25T08:02:17.287Z - normal: Simulator: 	gl.supports_PVRTC: false
-2018-01-25T08:02:17.287Z - normal: Simulator: 	gl.renderer: Intel HD Graphics 4000 OpenGL Engine
-2018-01-25T08:02:17.287Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
-2018-01-25T08:02:17.288Z - normal: Simulator: 	gl.max_texture_size: 16384
-2018-01-25T08:02:17.292Z - normal: Simulator: 	gl.supports_ETC1: false
-2018-01-25T08:02:17.293Z - normal: Simulator: 	gl.supports_BGRA8888: false
-2018-01-25T08:02:17.294Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
-2018-01-25T08:02:17.295Z - normal: Simulator: 	gl.max_texture_units: 16
-2018-01-25T08:02:17.295Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
-2018-01-25T08:02:17.295Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
-2018-01-25T08:02:17.296Z - normal: Simulator: 	gl.supports_NPOT: true
-2018-01-25T08:02:17.296Z - normal: Simulator: 	gl.version: 2.1 INTEL-10.24.45
-2018-01-25T08:02:17.296Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
-2018-01-25T08:02:17.297Z - normal: Simulator: 	gl.supports_OES_depth24: false
-2018-01-25T08:02:17.298Z - normal: Simulator: }
-2018-01-25T08:02:17.298Z - normal: Simulator: 
-2018-01-25T08:02:17.299Z - normal: Simulator: 
-2018-01-25T08:02:17.299Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
-2018-01-25T08:02:17.301Z - normal: Simulator: Project Config:
-2018-01-25T08:02:17.301Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
-2018-01-25T08:02:17.302Z - normal: Simulator:     writable path: $(PROJDIR)/
-2018-01-25T08:02:17.302Z - normal: Simulator:     script file: $(PROJDIR)/main.js
-2018-01-25T08:02:17.302Z - normal: Simulator:     frame size: 640 x 1136
-2018-01-25T08:02:17.303Z - normal: Simulator:     frame scale: 0.75
-2018-01-25T08:02:17.303Z - normal: Simulator:     show console: NO
-2018-01-25T08:02:17.304Z - normal: Simulator:     write debug log: NO ()
-2018-01-25T08:02:17.305Z - normal: Simulator:     listen: 
-2018-01-25T08:02:17.306Z - normal: Simulator:     debugger: none
-2018-01-25T08:02:17.306Z - normal: Simulator:     add searching path:
-2018-01-25T08:02:17.318Z - normal: Simulator: ------------------------------------------------
-2018-01-25T08:02:17.319Z - normal: Simulator: LOAD Js FILE: main.js
-2018-01-25T08:02:17.319Z - normal: Simulator: ------------------------------------------------
-2018-01-25T08:02:17.320Z - normal: Simulator: Initializing JavaScriptCore 
-2018-01-25T08:02:17.705Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
-2018-01-25T08:02:18.319Z - normal: Simulator: iShow!
-2018-01-25T08:02:18.481Z - normal: Simulator: JS: Command line is not supported on this platform [Object object]
-2018-01-25T08:02:18.535Z - normal: Simulator: JS: InitScene: 4.384999999999991ms
-2018-01-25T08:02:18.535Z - normal: Simulator: JS: AutoRelease: 0.12999999999988177ms
-2018-01-25T08:02:18.535Z - normal: Simulator: JS: Destroy: 0.06799999999998363ms
-2018-01-25T08:02:18.536Z - normal: Simulator: JS: AttachPersist: 0.007000000000061846ms
-2018-01-25T08:02:18.574Z - normal: Simulator: JS: 1a0f24903bcbf4f0de62e5f9c0267e41
-2018-01-25T08:02:18.574Z - normal: Simulator: JS: Activate: 37.131000000000085ms
-2018-01-25T08:02:18.576Z - normal: Simulator: JS: connect to ws://127.0.0.1:3014
-2018-01-25T08:02:18.614Z - normal: Simulator: JS: [ERROR]: socket error:  [Object object]
-2018-01-25T08:02:18.615Z - normal: Simulator: JS: [ERROR]: socket close:  [Object object]
-2018-01-25T08:02:28.115Z - normal: Simulator: ScriptEngine::cleanup begin ...
-2018-01-25T08:02:28.115Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 27
-2018-01-25T08:02:28.139Z - normal: Simulator: GC end ..., (Native -> JS map) count: 26
-2018-01-25T08:02:28.140Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 26
-2018-01-25T08:02:28.144Z - normal: Simulator: GC end ..., (Native -> JS map) count: 26
-2018-01-25T08:02:28.149Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 26
-2018-01-25T08:02:28.167Z - normal: Simulator: GC end ..., (Native -> JS map) count: 26
-2018-01-25T08:02:28.231Z - normal: Simulator: ScriptEngine::cleanup end ...
-2018-01-25T08:02:46.685Z - normal: Simulator: WORKAREA WIDTH 1916.00, HEIGHT 1035.00
-2018-01-25T08:02:46.686Z - normal: Simulator: FRAME SCALE = 0.75
-2018-01-25T08:02:46.691Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
-2018-01-25T08:02:46.827Z - normal: Simulator: 
-2018-01-25T08:02:46.830Z - normal: Simulator: {
-2018-01-25T08:02:46.830Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
-2018-01-25T08:02:46.831Z - normal: Simulator: 	gl.supports_vertex_array_object: true
-2018-01-25T08:02:46.831Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
-2018-01-25T08:02:46.831Z - normal: Simulator: 	gl.vendor: Intel Inc.
-2018-01-25T08:02:46.832Z - normal: Simulator: 	gl.supports_PVRTC: false
-2018-01-25T08:02:46.832Z - normal: Simulator: 	gl.renderer: Intel HD Graphics 4000 OpenGL Engine
-2018-01-25T08:02:46.832Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
-2018-01-25T08:02:46.833Z - normal: Simulator: 	gl.max_texture_size: 16384
-2018-01-25T08:02:46.833Z - normal: Simulator: 	gl.supports_ETC1: false
-2018-01-25T08:02:46.833Z - normal: Simulator: 	gl.supports_BGRA8888: false
-2018-01-25T08:02:46.834Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
-2018-01-25T08:02:46.834Z - normal: Simulator: 	gl.max_texture_units: 16
-2018-01-25T08:02:46.835Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
-2018-01-25T08:02:46.835Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
-2018-01-25T08:02:46.835Z - normal: Simulator: 	gl.supports_NPOT: true
-2018-01-25T08:02:46.836Z - normal: Simulator: 	gl.version: 2.1 INTEL-10.24.45
-2018-01-25T08:02:46.836Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
-2018-01-25T08:02:46.836Z - normal: Simulator: 	gl.supports_OES_depth24: false
-2018-01-25T08:02:46.837Z - normal: Simulator: }
-2018-01-25T08:02:46.837Z - normal: Simulator: 
-2018-01-25T08:02:46.837Z - normal: Simulator: 
-2018-01-25T08:02:46.837Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
-2018-01-25T08:02:46.843Z - normal: Simulator: Project Config:
-2018-01-25T08:02:46.844Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
-2018-01-25T08:02:46.844Z - normal: Simulator:     writable path: $(PROJDIR)/
-2018-01-25T08:02:46.845Z - normal: Simulator:     script file: $(PROJDIR)/main.js
-2018-01-25T08:02:46.845Z - normal: Simulator:     frame size: 640 x 1136
-2018-01-25T08:02:46.846Z - normal: Simulator:     frame scale: 0.75
-2018-01-25T08:02:46.846Z - normal: Simulator:     show console: NO
-2018-01-25T08:02:46.846Z - normal: Simulator:     write debug log: NO ()
-2018-01-25T08:02:46.847Z - normal: Simulator:     listen: 
-2018-01-25T08:02:46.847Z - normal: Simulator:     debugger: none
-2018-01-25T08:02:46.847Z - normal: Simulator:     add searching path:
-2018-01-25T08:02:46.848Z - normal: Simulator: 
-2018-01-25T08:02:46.848Z - normal: Simulator: 
-2018-01-25T08:02:46.848Z - normal: Simulator: 
-2018-01-25T08:02:46.849Z - normal: Simulator: ------------------------------------------------
-2018-01-25T08:02:46.849Z - normal: Simulator: LOAD Js FILE: main.js
-2018-01-25T08:02:46.849Z - normal: Simulator: ------------------------------------------------
-2018-01-25T08:02:46.850Z - normal: Simulator: Initializing JavaScriptCore 
-2018-01-25T08:02:46.945Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
-2018-01-25T08:02:47.265Z - normal: Simulator: iShow!
-2018-01-25T08:02:47.515Z - normal: Simulator: JS: Command line is not supported on this platform [Object object]
-2018-01-25T08:02:47.516Z - normal: Simulator: JS: InitScene: 3.9620000000001028ms
-2018-01-25T08:02:47.516Z - normal: Simulator: JS: AutoRelease: 0.1270000000000664ms
-2018-01-25T08:02:47.516Z - normal: Simulator: JS: Destroy: 0.07600000000002183ms
-2018-01-25T08:02:47.517Z - normal: Simulator: JS: AttachPersist: 0.004000000000019099ms
-2018-01-25T08:02:47.517Z - normal: Simulator: JS: 1111    1a0f24903bcbf4f0de62e5f9c0267e41
-2018-01-25T08:02:47.518Z - normal: Simulator: JS: Activate: 8.307999999999993ms
-2018-01-25T08:02:47.518Z - normal: Simulator: JS: connect to ws://127.0.0.1:3014
-2018-01-25T08:02:47.519Z - normal: Simulator: JS: [ERROR]: socket error:  [Object object]
-2018-01-25T08:02:47.519Z - normal: Simulator: JS: [ERROR]: socket close:  [Object object]
-2018-01-25T08:02:50.902Z - normal: Simulator: ScriptEngine::cleanup begin ...
-2018-01-25T08:02:50.904Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 27
-2018-01-25T08:02:50.929Z - normal: Simulator: GC end ..., (Native -> JS map) count: 26
-2018-01-25T08:02:50.930Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 26
-2018-01-25T08:02:50.931Z - normal: Simulator: GC end ..., (Native -> JS map) count: 26
-2018-01-25T08:02:50.931Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 26
-2018-01-25T08:02:50.970Z - normal: Simulator: GC end ..., (Native -> JS map) count: 26
-2018-01-25T08:02:50.971Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-02-05T01:33:56.250Z - normal: Load ~/.CocosCreator/settings.json
+2018-02-05T01:33:56.257Z - normal: checking language setting...
+2018-02-05T01:33:56.257Z - normal: Language: zh
+2018-02-05T01:33:57.161Z - success: protocol editor-framework registered
+2018-02-05T01:33:57.161Z - success: protocol app registered
+2018-02-05T01:33:57.162Z - success: protocol theme registered
+2018-02-05T01:33:57.162Z - success: protocol packages registered
+2018-02-05T01:33:57.163Z - success: protocol unpack registerred
+2018-02-05T01:33:57.163Z - success: protocol disable-commonjs registerred
+2018-02-05T01:33:57.377Z - normal: connected!
+2018-02-05T01:33:57.381Z - normal: Check project /Users/new/Documents/project/MyCreatorT
+2018-02-05T01:33:57.396Z - normal: Initializing Cocos2d
+2018-02-05T01:33:57.718Z - normal: Initializing Asset Database
+2018-02-05T01:33:57.772Z - success: protocol uuid registerred
+2018-02-05T01:33:57.772Z - success: protocol db registerred
+2018-02-05T01:33:57.772Z - success: protocol thumbnail registerred
+2018-02-05T01:33:57.773Z - normal: Loading editor/builtin packages
+2018-02-05T01:33:57.801Z - success: anysdk loaded
+2018-02-05T01:33:57.957Z - success: assets loaded
+2018-02-05T01:33:57.962Z - success: builder loaded
+2018-02-05T01:33:57.964Z - success: cocos-analytics loaded
+2018-02-05T01:33:57.970Z - success: console loaded
+2018-02-05T01:33:57.976Z - success: hierarchy loaded
+2018-02-05T01:33:57.982Z - success: inspector loaded
+2018-02-05T01:33:57.985Z - success: keystore loaded
+2018-02-05T01:33:57.990Z - success: node-library loaded
+2018-02-05T01:33:57.992Z - success: package-asset loaded
+2018-02-05T01:33:57.994Z - success: preferences loaded
+2018-02-05T01:33:57.998Z - success: project-exporter loaded
+2018-02-05T01:33:58.017Z - success: project-importer loaded
+2018-02-05T01:33:58.023Z - success: project-settings loaded
+2018-02-05T01:33:58.029Z - success: ui-kit loaded
+2018-02-05T01:33:58.035Z - success: ui-grid loaded
+2018-02-05T01:33:58.043Z - success: scene loaded
+2018-02-05T01:33:58.045Z - success: sprite-editor loaded
+2018-02-05T01:33:58.050Z - success: store loaded
+2018-02-05T01:33:58.061Z - success: timeline loaded
+2018-02-05T01:33:58.061Z - normal: Loading builtin packages
+2018-02-05T01:33:58.069Z - success: asset-db-debugger loaded
+2018-02-05T01:33:58.070Z - success: color-picker loaded
+2018-02-05T01:33:58.075Z - success: package-manager loaded
+2018-02-05T01:33:58.081Z - success: sdkbox loaded
+2018-02-05T01:33:58.086Z - success: tester loaded
+2018-02-05T01:33:58.093Z - success: ui-kit-preview-extra loaded
+2018-02-05T01:33:58.098Z - success: ui-kit-preview loaded
+2018-02-05T01:33:58.102Z - success: ui-tree loaded
+2018-02-05T01:33:59.558Z - normal: Initializing project /Users/new/Documents/project/MyCreatorT
+2018-02-05T01:33:59.560Z - normal: Loading packages
+2018-02-05T01:33:59.565Z - normal: Watching packages
+2018-02-05T01:33:59.580Z - normal: Run Application
+2018-02-05T01:34:00.723Z - success: preview server running at http://localhost:7456
+2018-02-05T01:34:07.016Z - normal: 1.7.0
+2018-02-05T02:43:06.301Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/scripts/tools/encryptjs/bitbucket-pipelines.yml.meta
+2018-02-05T02:43:06.339Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/scripts/tools/encryptjs/package.json.meta
+2018-02-05T02:43:06.348Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/Src.meta

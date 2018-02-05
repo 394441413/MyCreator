@@ -39,7 +39,4 @@ cc.Class({
         });
     },
 
-    onDestroy () {
-        
-    },
 });

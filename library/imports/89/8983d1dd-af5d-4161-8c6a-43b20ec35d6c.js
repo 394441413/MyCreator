@@ -39,8 +39,7 @@ cc.Class({
                 PomeloManager.port = data.port;
             });
         });
-    },
-    onDestroy: function onDestroy() {}
+    }
 });
 
 cc._RF.pop();

@@ -93,4 +93,5 @@ module.exports = {
             //cc.log(jsb.fileUtils.getWritablePath());
         }
     }
+    
 };

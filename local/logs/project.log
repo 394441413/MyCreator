@@ -1,55 +1,52 @@
-2018-02-05T01:33:56.250Z - normal: Load ~/.CocosCreator/settings.json
-2018-02-05T01:33:56.257Z - normal: checking language setting...
-2018-02-05T01:33:56.257Z - normal: Language: zh
-2018-02-05T01:33:57.161Z - success: protocol editor-framework registered
-2018-02-05T01:33:57.161Z - success: protocol app registered
-2018-02-05T01:33:57.162Z - success: protocol theme registered
-2018-02-05T01:33:57.162Z - success: protocol packages registered
-2018-02-05T01:33:57.163Z - success: protocol unpack registerred
-2018-02-05T01:33:57.163Z - success: protocol disable-commonjs registerred
-2018-02-05T01:33:57.377Z - normal: connected!
-2018-02-05T01:33:57.381Z - normal: Check project /Users/new/Documents/project/MyCreatorT
-2018-02-05T01:33:57.396Z - normal: Initializing Cocos2d
-2018-02-05T01:33:57.718Z - normal: Initializing Asset Database
-2018-02-05T01:33:57.772Z - success: protocol uuid registerred
-2018-02-05T01:33:57.772Z - success: protocol db registerred
-2018-02-05T01:33:57.772Z - success: protocol thumbnail registerred
-2018-02-05T01:33:57.773Z - normal: Loading editor/builtin packages
-2018-02-05T01:33:57.801Z - success: anysdk loaded
-2018-02-05T01:33:57.957Z - success: assets loaded
-2018-02-05T01:33:57.962Z - success: builder loaded
-2018-02-05T01:33:57.964Z - success: cocos-analytics loaded
-2018-02-05T01:33:57.970Z - success: console loaded
-2018-02-05T01:33:57.976Z - success: hierarchy loaded
-2018-02-05T01:33:57.982Z - success: inspector loaded
-2018-02-05T01:33:57.985Z - success: keystore loaded
-2018-02-05T01:33:57.990Z - success: node-library loaded
-2018-02-05T01:33:57.992Z - success: package-asset loaded
-2018-02-05T01:33:57.994Z - success: preferences loaded
-2018-02-05T01:33:57.998Z - success: project-exporter loaded
-2018-02-05T01:33:58.017Z - success: project-importer loaded
-2018-02-05T01:33:58.023Z - success: project-settings loaded
-2018-02-05T01:33:58.029Z - success: ui-kit loaded
-2018-02-05T01:33:58.035Z - success: ui-grid loaded
-2018-02-05T01:33:58.043Z - success: scene loaded
-2018-02-05T01:33:58.045Z - success: sprite-editor loaded
-2018-02-05T01:33:58.050Z - success: store loaded
-2018-02-05T01:33:58.061Z - success: timeline loaded
-2018-02-05T01:33:58.061Z - normal: Loading builtin packages
-2018-02-05T01:33:58.069Z - success: asset-db-debugger loaded
-2018-02-05T01:33:58.070Z - success: color-picker loaded
-2018-02-05T01:33:58.075Z - success: package-manager loaded
-2018-02-05T01:33:58.081Z - success: sdkbox loaded
-2018-02-05T01:33:58.086Z - success: tester loaded
-2018-02-05T01:33:58.093Z - success: ui-kit-preview-extra loaded
-2018-02-05T01:33:58.098Z - success: ui-kit-preview loaded
-2018-02-05T01:33:58.102Z - success: ui-tree loaded
-2018-02-05T01:33:59.558Z - normal: Initializing project /Users/new/Documents/project/MyCreatorT
-2018-02-05T01:33:59.560Z - normal: Loading packages
-2018-02-05T01:33:59.565Z - normal: Watching packages
-2018-02-05T01:33:59.580Z - normal: Run Application
-2018-02-05T01:34:00.723Z - success: preview server running at http://localhost:7456
-2018-02-05T01:34:07.016Z - normal: 1.7.0
-2018-02-05T02:43:06.301Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/scripts/tools/encryptjs/bitbucket-pipelines.yml.meta
-2018-02-05T02:43:06.339Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/scripts/tools/encryptjs/package.json.meta
-2018-02-05T02:43:06.348Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/Src.meta
+2018-02-27T05:11:48.681Z - normal: Load ~/.CocosCreator/settings.json
+2018-02-27T05:11:48.685Z - normal: checking language setting...
+2018-02-27T05:11:48.685Z - normal: Language: zh
+2018-02-27T05:11:49.778Z - success: protocol editor-framework registered
+2018-02-27T05:11:49.778Z - success: protocol app registered
+2018-02-27T05:11:49.778Z - success: protocol theme registered
+2018-02-27T05:11:49.779Z - success: protocol packages registered
+2018-02-27T05:11:49.779Z - success: protocol unpack registerred
+2018-02-27T05:11:49.779Z - success: protocol disable-commonjs registerred
+2018-02-27T05:11:49.995Z - normal: connected!
+2018-02-27T05:11:50.000Z - normal: Check project /Users/new/Documents/project/MyCreatorT
+2018-02-27T05:11:50.003Z - normal: Initializing Cocos2d
+2018-02-27T05:11:50.257Z - normal: Initializing Asset Database
+2018-02-27T05:11:50.310Z - success: protocol uuid registerred
+2018-02-27T05:11:50.310Z - success: protocol db registerred
+2018-02-27T05:11:50.310Z - success: protocol thumbnail registerred
+2018-02-27T05:11:50.310Z - normal: Loading editor/builtin packages
+2018-02-27T05:11:50.347Z - success: anysdk loaded
+2018-02-27T05:11:50.468Z - success: assets loaded
+2018-02-27T05:11:50.472Z - success: builder loaded
+2018-02-27T05:11:50.475Z - success: cocos-analytics loaded
+2018-02-27T05:11:50.480Z - success: console loaded
+2018-02-27T05:11:50.486Z - success: hierarchy loaded
+2018-02-27T05:11:50.492Z - success: inspector loaded
+2018-02-27T05:11:50.493Z - success: keystore loaded
+2018-02-27T05:11:50.499Z - success: node-library loaded
+2018-02-27T05:11:50.515Z - success: package-asset loaded
+2018-02-27T05:11:50.518Z - success: preferences loaded
+2018-02-27T05:11:50.522Z - success: project-exporter loaded
+2018-02-27T05:11:50.542Z - success: project-importer loaded
+2018-02-27T05:11:50.547Z - success: project-settings loaded
+2018-02-27T05:11:50.562Z - success: ui-kit loaded
+2018-02-27T05:11:50.569Z - success: ui-grid loaded
+2018-02-27T05:11:50.575Z - success: scene loaded
+2018-02-27T05:11:50.576Z - success: sprite-editor loaded
+2018-02-27T05:11:50.582Z - success: store loaded
+2018-02-27T05:11:50.589Z - success: timeline loaded
+2018-02-27T05:11:50.589Z - normal: Loading builtin packages
+2018-02-27T05:11:50.594Z - success: asset-db-debugger loaded
+2018-02-27T05:11:50.595Z - success: color-picker loaded
+2018-02-27T05:11:50.604Z - success: package-manager loaded
+2018-02-27T05:11:50.611Z - success: sdkbox loaded
+2018-02-27T05:11:50.617Z - success: tester loaded
+2018-02-27T05:11:50.623Z - success: ui-kit-preview-extra loaded
+2018-02-27T05:11:50.629Z - success: ui-kit-preview loaded
+2018-02-27T05:11:50.640Z - success: ui-tree loaded
+2018-02-27T05:11:51.827Z - normal: Initializing project /Users/new/Documents/project/MyCreatorT
+2018-02-27T05:11:51.893Z - normal: Loading packages
+2018-02-27T05:11:51.899Z - normal: Watching packages
+2018-02-27T05:11:51.912Z - normal: Run Application
+2018-02-27T05:11:54.362Z - success: preview server running at http://localhost:7456
+2018-02-27T05:12:01.488Z - normal: 1.7.0

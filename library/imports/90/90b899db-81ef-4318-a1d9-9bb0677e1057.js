@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '90b89nbge9DGKHZm7BnfhBX', 'rockerTool');
-// scripts/tools/rockerTool.js
+// template/rocker/rockerTool.js
 
 "use strict";
 

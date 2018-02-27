@@ -1,8 +1,8 @@
 "use strict";
 cc._RF.push(module, '731baJNoa9Gq4SOs8ocJpeS', 'EventManager');
-// scripts/tools/EventManager.js
+// template/rootNode/EventManager.js
 
-'use strict';
+"use strict";
 
 // looper
 // ----------------
@@ -24,7 +24,7 @@ cc.Class({
     properties: {
         frameEvent: {
             default: true,
-            tooltip: '是否在update执行事件'
+            tooltip: '是否不在update执行事件'
         }
     },
 
@@ -61,22 +61,38 @@ cc.Class({
 
     //eventOn("event","callbackFunc",this);
     eventOn: function eventOn(eventName, func, target) {
+        if (typeof eventName !== "string" || typeof func !== "function" || typeof target === "undefined") {
+            cc.error("EventManager.js method eventOn param error!");
+            return;
+        }
         eventList[eventName] = [func, target, true];
     },
 
     //eventOnce("event","callbackFunc",this);
     eventOnce: function eventOnce(eventName, func, target) {
+        if (typeof eventName !== "string" || typeof func !== "function" || typeof target === "undefined") {
+            cc.error("EventManager.js method eventOnce param error!");
+            return;
+        }
         eventList[eventName] = [func, target, false];
     },
 
     //eventOff("eventName");
     eventOff: function eventOff(eventName) {
+        if (typeof type !== "string") {
+            cc.error("EventManager.js method eventOff param error!");
+            return;
+        }
         if (eventList[eventName]) {
             delete eventList[eventName];
         }
     },
 
     eventTrigger: function eventTrigger(eventName, args) {
+        if (typeof eventName !== "string") {
+            cc.error("EventManager.js method eventTrigger param error!");
+            return;
+        }
         handlerList[countNum] = [eventName, args];
         countNum++;
         if (frameEvent) {
